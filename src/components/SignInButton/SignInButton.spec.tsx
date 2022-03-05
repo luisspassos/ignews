@@ -23,6 +23,13 @@ describe('SignInButton component', () => {
   })
 
   it('renders correctly when user is authenticated', () => {
+    const useSessionMocked = mocked(useSession)
+
+    useSessionMocked.mockReturnValueOnce({
+      data: {},
+      status: 'unauthenticated'
+    })
+
     render(
       <SignInButton />
     )
