@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  IGNEWS - Portal de notícias 📰🚀
+  IGNEWS - News portal 📰🚀
   <br>
   <br>
 
@@ -23,18 +23,20 @@
 ---
 
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; &#xa0; | &#xa0;
-  <a href="#framed_picture-imagens">Imagens</a> &#xa0; &#xa0;
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-Starting">Starting</a> &#xa0; &#xa0; | &#xa0;
+  <a href="#framed_picture-images">Images</a> &#xa0; &#xa0;
 </p>
 
 <br>
 
-## :dart: Sobre ##
+## :dart: About ##
 
-O projeto ig.news é um blog onde os usuários podem ter acesso ao conteúdo de cada postagem de acordo com o status de sua assinatura.<br>
+The blog possesses a buy system integrated with STRIPE, and after the user to accomplish the payment, their subscription will be active and ready to view the entire content
+
+The ig.news project is a blog where the users can access the content of each post according to their subscription status.<br>
 O blog possui um sistema de compra integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo
 de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá acesso limitado ao conteúdo das postagens. E todos os dados necessários para se fazer verificações
 de assinaturas ou dados dos usuários, estão salvos no banco de dados FaunaDB.
