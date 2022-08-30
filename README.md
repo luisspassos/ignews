@@ -26,7 +26,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-Starting">Starting</a> &#xa0; &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#framed_picture-images">Images</a> &#xa0; &#xa0;
 </p>
 
@@ -34,34 +34,33 @@
 
 ## :dart: About ##
 
-The blog possesses a buy system integrated with STRIPE, and after the user to accomplish the payment, their subscription will be active and ready to view the entire content of the entire blog. Case the user doesn't wish opt for subscription, he will has access limited to the pot content.
 
-The ig.news project is a blog where the users can access the content of each post according to their subscription status.<br>
-O blog possui um sistema de compra integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo
-de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá acesso limitado ao conteúdo das postagens. E todos os dados necessários para se fazer verificações
-de assinaturas ou dados dos usuários, estão salvos no banco de dados FaunaDB.
+
+The ig.news project is a blog where the users can access the content of each post according to their subscription status.
+
+The blog possesses a buy system integrated with STRIPE, and after the user makes the payment, their subscription will be active and ready to view the full content of the entire blog. If the user doesn't wish to opt for the subscription, he will have limited access to the content of the posts. And all the necessary data for making checks of signatures or user data, are saved in FaunaDB Database. 
 <br>
 <br>
-Essa é uma aplicação Serverless, ou seja, todo o processo que dependeria de um backend foi integrado dentro do front e seguindo o padrão da JAMStack.
-<br>
-As postagens são feitas pelo painel do Prismic CMS e integradas diretamente pelo front.
+This is a Serverless application, that is, the entire process that would depend on a backend was integrated within the front end and following the JAMStack standard.
+
+Posts are made through the Prismic CMS panel and integrated directly from the front.
 
 
-## :rocket: Tecnologias ##
+## :rocket: Technologies ##
 
-As seguintes tecnologias foram utilizadas no projeto:
+The following technologies were used in the project:
 
 - [Next.js](https://nextjs.org/)
 - [Prismic CMS](https://prismic.io/)
 - [Stripe](https://stripe.com/)
 - [FaunaDB](https://fauna.com/)
 
-## :white_check_mark: Requerimentos ##
+## :white_check_mark: Requirements ##
 
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/lang/en/)
 
-## :checkered_flag: Começando ##
+## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
@@ -78,7 +77,7 @@ $ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
-## :framed_picture: Imagens ##
+## :framed_picture: Images ##
 
 <h1 align="center">
     <img alt = "Web app" src = "./.github/image-01.png" width = "500px" />
