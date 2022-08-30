@@ -34,7 +34,7 @@
 
 ## :dart: About ##
 
-The blog possesses a buy system integrated with STRIPE, and after the user to accomplish the payment, their subscription will be active and ready to view the entire content
+The blog possesses a buy system integrated with STRIPE, and after the user to accomplish the payment, their subscription will be active and ready to view the entire content of the entire blog. Case the user doesn't wish opt for subscription, he will has access limited to the pot content.
 
 The ig.news project is a blog where the users can access the content of each post according to their subscription status.<br>
 O blog possui um sistema de compra integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo
