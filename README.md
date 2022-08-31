@@ -34,7 +34,7 @@
 
 ## :dart: About ##
 
-
+[https://ignews-felipenkniess.vercel.app/](https://ignews-felipenkniess.vercel.app/)
 
 The ig.news project is a blog where the users can access the content of each post according to their subscription status.
 
